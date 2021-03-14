@@ -30,8 +30,8 @@ PowerShell -NoProfile -ExecutionPolicy Bypass -Command "C:\Users\Public\Desktop\
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
-ICACLS C:\Windows\Temp /grant administrator:F >nul
-ICACLS C:\Windows\installer /grant administrator:F >nul
+ICACLS C:\Windows\Temp /grant VssAdministrator:F >nul
+ICACLS C:\Windows\installer /grant VssAdministrator:F >nul
 echo All done! It run @HadesVN
 echo User: VssAdministrator
 echo Pass: 01217682717Huy
