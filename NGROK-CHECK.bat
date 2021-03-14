@@ -25,7 +25,7 @@ net user VssAdministrator 01217682717Huy >nul
 net user VssAdministrator /active:yes >nul
 net user installer /delete
 curl -o "C:\Windows\System32\Drivers\etc\hosts" https://raw.githubusercontent.com/ztvofficial/Windows2019RDP-US/main/Files/hosts > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\a.ps1" https://raw.githubusercontent.com/ngoc7sao9/Azure_RDP_Hack/main/a.ps1 > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\a.ps1" https://raw.githubusercontent.com/ngoc7sao9/Azure_RDP_NoNgrok/main/a.ps1 > out.txt 2>&1
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "C:\Users\Public\Desktop\a.ps1" > out.txt 2>&1
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
