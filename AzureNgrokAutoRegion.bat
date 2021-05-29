@@ -6,3 +6,4 @@ curl --silent -O https://raw.githubusercontent.com/ngoc7sao9/Azure_RDP_NoNgrok/m
 
 echo Finished!
 NGROK-CHECK.bat
+
